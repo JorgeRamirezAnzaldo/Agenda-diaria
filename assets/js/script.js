@@ -52,6 +52,7 @@ function renderText(){
 
 //Function to get the text introduced by the user
 function getText(event){
+    $("#desc").hide();
     var ButtonId = $ (event.target).attr("id"); //Get the id of the button icon pressed by the user
     var TextAreaclass = "." + ButtonId; //Create the text area class using the button icon id
     var input = $ ("div").children(TextAreaclass).val(); //Get the text of the proper text area
