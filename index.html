@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <!--Include necessary stylesheets-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <title>Planificador de días de trabajo </title>
+  </head>
+
+  <body>
+    <!--Include elements for the header-->
+    <header class="jumbotron">
+      <h1 class="display-3">Planificador de días de trabajo </h1>
+      <p class="lead">Una aplicación de calendario simple para programar su día de trabajo</p>
+      <!--<p> element to place the current day-->
+      <p id="currentDay" class="lead"></p>
+    </header>
+
+    <!--<div> used as container for the time blocks-->
+    <div class="container time-block" id="TimeBlock">
+      <!--<div> used to place the text when the appointment has been added-->
+      <div id="desc">
+        <p class="description">Appointment added to <span style="color:red">localStorage <i class='fas fa-check' style='color:green'></i></span></p>
+      </div>
+      <!--<div> element for the 9AM time block-->
+      <div class="input-group mb-3 row">
+        <p class="hour">9AM</p>
+        <textarea class="9"></textarea>
+        <button class="btn saveBtn" type="button"><i class='fas fa-save' id = "9"></i></button>
+      </div>
+      <!--<div> element for the 10AM time block-->
+      <div class="input-group mb-3 row">
+        <p class="hour">10AM</p>
+        <textarea class="10"></textarea>
+        <button class="btn saveBtn" type="button"><i class='fas fa-save' id = "10"></i></button>
+      </div>
+      <!--<div> element for the 11AM time block-->
+      <div class="input-group mb-3 row">
+        <p class="hour">11AM</p>
+        <textarea class="11"></textarea>
+        <button class="btn saveBtn" type="button"><i class='fas fa-save' id = "11"></i></button>
+      </div>
+      <!--<div> element for the 12PM time block-->
+      <div class="input-group mb-3 row">
+        <p class="hour">12PM</p>
+        <textarea class="12"></textarea>
+        <button class="btn saveBtn" type="button"><i class='fas fa-save' id = "12"></i></button>
+      </div>
+      <!--<div> element for the 13PM time block-->
+      <div class="input-group mb-3 row">
+        <p class="hour">1PM</p>
+        <textarea class="13"></textarea>
+        <button class="btn saveBtn" type="button"><i class='fas fa-save' id = "13"></i></button>
+      </div>
+      <!--<div> element for the 14PM time block-->
+      <div class="input-group mb-3 row">
+        <p class="hour">2PM</p>
+        <textarea class="14"></textarea>
+        <button class="btn saveBtn" type="button"><i class='fas fa-save' id = "14"></i></button>
+      </div>
+      <!--<div> element for the 15PM time block-->
+      <div class="input-group mb-3 row">
+        <p class="hour">3PM</p>
+        <textarea class="15"></textarea>
+        <button class="btn saveBtn" type="button"><i class='fas fa-save' id = "15"></i></button>
+      </div>
+      <!--<div> element for the 16PM time block-->
+      <div class="input-group mb-3 row">
+        <p class="hour">4PM</p>
+        <textarea class="16"></textarea>
+        <button class="btn saveBtn" type="button"><i class='fas fa-save' id = "16"></i></button>
+      </div>
+      <!--<div> element for the 17PM time block-->
+      <div class="input-group mb-3 row">
+        <p class="hour">5PM</p>
+        <textarea class="17"></textarea>
+        <button class="btn saveBtn" type="button"><i class='fas fa-save' id = "17"></i></button>
+      </div>
+    <!--Include necessary scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

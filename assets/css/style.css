@@ -1,0 +1,86 @@
+/*Properties for all the body*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+/*Properties for all the textareas*/
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+  width: 80%;
+}
+/*Properties for the jumbotron*/
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+/*Properties for the element to place the current day*/
+#currentDay{
+  margin-top: 40px;
+}
+/*Properties for the element to place the success message*/
+.description {
+  white-space: pre-wrap;
+}
+/*Properties for the time block*/
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+  height: 100%;
+  margin-bottom: 100px;
+}
+/*Properties for each row*/
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+}
+/*Properties for the text that containes the time*/
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+  border-left: 0px;
+  text-align: right;
+  width:10%;
+  line-height: 80px;
+  padding-right: 15px;
+}
+/*Properties used to change the color for the time blocks in the past*/
+.past {
+  background-color: #d3d3d3;
+  color: black;
+}
+/*Properties used to change the color for the time blocks in the present*/
+.present {
+  background-color: #ff6961;
+  color: black;
+}
+/*Properties used to change the color for the time blocks in the future*/
+.future {
+  background-color: #77dd77;
+  color: black;
+}
+/*Properties used for all the buttons with class saveBtn*/
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+  width: 10%; /*added*/
+}
+/*Properties used when hovering over the icon of the buttons with class saveBtn*/
+.saveBtn i:hover {
+  font-size: 24px;
+  color:black;
+  transition: all 0.3s ease-in-out;
+}
